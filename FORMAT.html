@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FreshCart - Food, Items and Clothing</title>
+</head>
+<body>
+
+  <header id="top">
+    <h1>FreshCart</h1>
+
+    <form action="#" method="get">
+      <input type="search" name="q" placeholder="Search for food, items, or clothing">
+      <button type="submit">Search</button>
+    </form>
+
+    <nav>
+      <a href="#home">Home</a> |
+      <a href="#food">Food</a> |
+      <a href="#items">Items</a> |
+      <a href="#clothing">Clothing</a> |
+      <a href="#cart">Cart</a> |
+      <a href="#checkout">Checkout</a>
+    </nav>
+    <hr>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section id="home">
+      <h2>Fresh finds, delivered to your door!</h2>
+      <p>FreshCart is your one-stop online store for groceries, household items, and everyday clothing at friendly prices.</p>
+      <a href="#food"><button type="button">Shop Now</button></a>
+    </section>
+    <hr>
+
+    <!-- Food -->
+    <section id="food">
+      <h2>Food</h2>
+
+      <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+          <td>
+            <h3>🍎 Red Apples</h3>
+            <p>Crisp and sweet apples, 1 kg pack.</p>
+            <p><strong>₱180.00</strong></p>
+            <button type="button">Add to Cart</button>
+          </td>
+          <td>
+            <h3>🍞 Whole Wheat Bread</h3>
+            <p>Freshly baked loaf, sliced.</p>
+            <p><strong>₱75.00</strong></p>
+            <button type="button">Add to Cart</button>
+          </td>
+          <td>
+            <h3>🥛 Fresh Milk</h3>
+            <p>Full cream milk, 1 liter bottle.</p>
+            <p><strong>₱95.00</strong></p>
+            <button type="button">Add to Cart</button>
+          </td>
+        </tr>
+      </table>
+
+      <h3>Featured Photos</h3>
+
+      <figure>
+        <img src="https://placehold.co/300x200?text=Apples" alt="A pile of red apples" width="300" height="200">
+        <figcaption><strong>Red Apples</strong> - picked fresh from local orchards.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="https://placehold.co/300x200?text=Bread" alt="A loaf of whole wheat bread" width="300" height="200">
+        <figcaption><strong>Whole Wheat Bread</strong> - baked every morning.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="https://placehold.co/300x200?text=Milk" alt="A bottle of fresh milk" width="300" height="200">
+        <figcaption><strong>Fresh Milk</strong> - cold, creamy, and delivered daily.</figcaption>
+      </figure>
+
+      <small>Note: these are placeholder images and can be replaced with real product photos.</small>
+    </section>
+    <hr>
+
+    <!-- Items -->
+    <section id="items">
+      <h2>Items</h2>
+
+      <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+          <td>
+            <h3>🧴 Dish Soap</h3>
+            <p>Lemon-scented dishwashing liquid, 500 ml.</p>
+            <p><strong>₱65.00</strong></p>
+            <button type="button">Add to Cart</button>
+          </td>
+          <td>
+            <h3>🧹 Broom Set</h3>
+            <p>Sturdy broom with matching dustpan.</p>
+            <p><strong>₱220.00</strong></p>
+            <button type="button">Add to Cart</button>
+          </td>
+          <td>
+            <h3>🧻 Tissue Pack</h3>
+            <p>Soft 2-ply tissue, pack of 6 rolls.</p>
+            <p><strong>₱110.00</strong></p>
+            <button type="button">Add to Cart</button>
+          </td>
+        </tr>
+      </table>
+    </section>
+    <hr>
+
+    <!-- Clothing -->
+    <section id="clothing">
+      <h2>Clothing</h2>
+
+      <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+          <td>
+            <h3>👕 Cotton T-Shirt</h3>
+            <p>Soft, breathable everyday tee.</p>
+            <p><strong>₱350.00</strong></p>
+            <p>
+              <label for="size-shirt">Size:</label>
+              <select id="size-shirt" name="size-shirt">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+              </select>
+            </p>
+            <button type="button">Add to Cart</button>
+          </td>
+          <td>
+            <h3>👖 Denim Jeans</h3>
+            <p>Classic straight-cut blue jeans.</p>
+            <p><strong>₱899.00</strong></p>
+            <p>
+              <label for="size-jeans">Size:</label>
+              <select id="size-jeans" name="size-jeans">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+              </select>
+            </p>
+            <button type="button">Add to Cart</button>
+          </td>
+          <td>
+            <h3>🧥 Pullover Hoodie</h3>
+            <p>Warm fleece hoodie, perfect for Baguio weather.</p>
+            <p><strong>₱799.00</strong></p>
+            <p>
+              <label for="size-hoodie">Size:</label>
+              <select id="size-hoodie" name="size-hoodie">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+              </select>
+            </p>
+            <button type="button">Add to Cart</button>
+          </td>
+        </tr>
+      </table>
+    </section>
+    <hr>
+
+    <!-- Cart -->
+    <section id="cart">
+      <h2>Your Cart</h2>
+
+      <table border="1" cellpadding="8" cellspacing="0">
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Qty</th>
+            <th>Subtotal</th>
+            <th>Remove</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>🍎 Red Apples</td>
+            <td>₱180.00</td>
+            <td><input type="number" name="qty-apples" min="1" max="20" value="2"></td>
+            <td>₱360.00</td>
+            <td><button type="button">Remove</button></td>
+          </tr>
+          <tr>
+            <td>🧴 Dish Soap</td>
+            <td>₱65.00</td>
+            <td><input type="number" name="qty-soap" min="1" max="20" value="1"></td>
+            <td>₱65.00</td>
+            <td><button type="button">Remove</button></td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3"><strong>Total</strong></td>
+            <td colspan="2"><strong>₱425.00</strong></td>
+          </tr>
+        </tfoot>
+      </table>
+
+      <p><a href="#checkout"><button type="button">Proceed to Checkout</button></a></p>
+    </section>
+    <hr>
+
+    <!-- Checkout -->
+    <section id="checkout">
+      <h2>Checkout</h2>
+
+      <form action="#" method="post">
+
+        <fieldset>
+          <legend>Shipping Details</legend>
+
+          <p>
+            <label for="fullname">Full name:</label><br>
+            <input type="text" id="fullname" name="fullname" required>
+          </p>
+
+          <p>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+          </p>
+
+          <p>
+            <label for="phone">Phone number:</label><br>
+            <input type="tel" id="phone" name="phone" placeholder="09XX XXX XXXX">
+          </p>
+
+          <p>
+            <label for="address">Address:</label><br>
+            <textarea id="address" name="address" rows="4" cols="40" required></textarea>
+          </p>
+
+          <p>
+            <label for="city">City:</label><br>
+            <input type="text" id="city" name="city" list="cities" placeholder="Choose or type a city">
+            <datalist id="cities">
+              <option value="Baguio City"></option>
+              <option value="La Trinidad"></option>
+              <option value="Manila"></option>
+              <option value="Quezon City"></option>
+              <option value="Cebu City"></option>
+            </datalist>
+          </p>
+
+          <p>
+            <label for="delivery-date">Delivery date:</label><br>
+            <input type="date" id="delivery-date" name="delivery-date">
+          </p>
+
+          <p>
+            <label for="delivery-option">Delivery option:</label><br>
+            <select id="delivery-option" name="delivery-option">
+              <option value="standard">Standard</option>
+              <option value="express">Express</option>
+              <option value="pickup">Store Pick-up</option>
+            </select>
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <legend>Payment Method</legend>
+
+          <p>
+            <input type="radio" id="pay-card" name="payment" value="card" checked>
+            <label for="pay-card">Credit / Debit Card</label><br>
+
+            <input type="radio" id="pay-cod" name="payment" value="cod">
+            <label for="pay-cod">Cash on Delivery</label><br>
+
+            <input type="radio" id="pay-ewallet" name="payment" value="ewallet">
+            <label for="pay-ewallet">E-Wallet</label>
+          </p>
+
+          <p>
+            Extras:<br>
+            <input type="checkbox" id="extra-gift" name="extras" value="gift-wrap">
+            <label for="extra-gift">Gift wrap</label><br>
+
+            <input type="checkbox" id="extra-receipt" name="extras" value="receipt">
+            <label for="extra-receipt">Include receipt</label>
+          </p>
+        </fieldset>
+
+        <p>
+          <input type="checkbox" id="terms" name="terms" value="agreed" required>
+          <label for="terms">I agree to the <a href="#terms-info">Terms &amp; Conditions</a></label>
+        </p>
+
+        <p>
+          <button type="submit">Place Order</button>
+          <button type="reset">Clear</button>
+        </p>
+      </form>
+    </section>
+    <hr>
+
+    <!-- Store information, map, reviews -->
+    <section id="contact">
+      <h2>Visit Our Store</h2>
+
+      <iframe title="Map of the FreshCart store in Baguio City" width="600" height="400"
+        src="https://www.openstreetmap.org/export/embed.html?bbox=120.5850%2C16.3950%2C120.6070%2C16.4090&amp;layer=mapnik&amp;marker=16.4023%2C120.5960">
+      </iframe>
+      <br>
+      <a href="https://www.openstreetmap.org/?mlat=16.4023&amp;mlon=120.5960#map=16/16.4023/120.5960" target="_blank" rel="noopener">View larger map</a>
+
+      <h3>Reach Us</h3>
+      <address>
+        <strong>FreshCart Store</strong><br>
+        123 General Luna Road<br>
+        Baguio City, Philippines<br>
+        Phone: <a href="tel:+639171234567">+63 917 123 4567</a><br>
+        Email: <a href="mailto:hello@freshcart.example">hello@freshcart.example</a>
+      </address>
+
+      <h3>Leave a Review</h3>
+      <form action="#" method="post" enctype="multipart/form-data">
+        <p>
+          <label for="rev-name">Your name:</label><br>
+          <input type="text" id="rev-name" name="name" required>
+        </p>
+
+        <p>
+          <label for="rating">Rating (1-5):</label><br>
+          <input type="range" id="rating" name="rating" min="1" max="5" value="5">
+        </p>
+
+        <p>
+          <label for="rev-message">Your review:</label><br>
+          <textarea id="rev-message" name="message" rows="5" cols="40" required></textarea>
+        </p>
+
+        <p>
+          <label for="rev-photo">Attach a photo (optional):</label><br>
+          <input type="file" id="rev-photo" name="photo" accept="image/*">
+        </p>
+
+        <p>
+          <button type="submit">Submit Review</button>
+        </p>
+      </form>
+    </section>
+    <hr>
+
+    <!-- Useful links -->
+    <section id="links">
+      <h2>Useful Links</h2>
+      <ul>
+        <li><a href="https://www.openstreetmap.org/" target="_blank" rel="noopener">OpenStreetMap</a></li>
+        <li><a href="https://maps.google.com/" target="_blank" rel="noopener">Google Maps</a></li>
+        <li><a href="https://www.facebook.com/" target="_blank" rel="noopener">FreshCart on Facebook</a></li>
+        <li><a href="#top">Back to top</a></li>
+      </ul>
+    </section>
+    <hr>
+
+    <!-- Terms -->
+    <section id="terms-info">
+      <h2>Terms &amp; Conditions</h2>
+      <details>
+        <summary>Read the terms</summary>
+        <ol>
+          <li>Returns are accepted within 7 days if the item is unused and in its original packaging.</li>
+          <li>Delivery times depend on the delivery option chosen and on your location.</li>
+          <li>Payment must be completed before shipping, except for Cash on Delivery orders.</li>
+        </ol>
+      </details>
+    </section>
+
+  </main>
+
+  <footer>
+    <hr>
+    <p>
+      <a href="#home">About Us</a> |
+      <a href="#contact">Contact</a> |
+      <a href="#terms-info">Shipping Policy</a> |
+      <a href="#terms-info">Returns</a>
+    </p>
+    <p>&copy; 2026 FreshCart. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
